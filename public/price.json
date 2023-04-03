@@ -1,0 +1,33 @@
+[
+    {
+      "id": "1",
+      "name": "Weights",
+      "price": 5.99,
+      "features": [
+        { "id": "1", "name": "Free weights", "price": 1.99 },
+        { "id": "2", "name": "Weight machines", "price": 2.99 },
+        { "id": "3", "name": "Barbells", "price": 1.99 }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Cardio Equipment",
+      "price": 7.99,
+      "features": [
+        { "id": "4", "name": "Treadmills", "price": 2.99 },
+        { "id": "5", "name": "Ellipticals", "price": 2.99 },
+        { "id": "6", "name": "Stationary bikes", "price": 2.99 }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Group Fitness Classes",
+      "price": 12.99,
+      "features": [
+        { "id": "7", "name": "Yoga classes", "price": 4.99 },
+        { "id": "8", "name": "Pilates classes", "price": 4.99 },
+        { "id": "9", "name": "Zumba classes", "price": 3.99 }
+      ]
+    }
+  ]
+  

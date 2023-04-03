@@ -12,22 +12,23 @@ const Navbar = () => {
         { id: 5, name: "login", path: "/login" },
       ];
     return (
-        <div>
+        <nav className='bg-sky-400'>
        <div onClick={()=>setisopen(!isopen)} className='md:hidden' >
         
         <span>
             {
-                isopen===true? <Bars3Icon className="h-6 w-6 text-blue-500" />: <XMarkIcon className="h-6 w-6 text-blue-500" />
+                isopen===true?<XMarkIcon className="h-6 w-6 text-blue-500 text-white pl-2" /> : <Bars3Icon className="h-6 w-6 text-blue-500 text-white pl-2" />
             }
         </span>
        
         </div>
-           <div className='md:flex list-none gap-4'> 
+           <div className={`md:flex md:static absolute list-none duration-500 gap-4 
+           bg-sky-300 py-2 px-4 ${isopen?'top-6':'-top-36'}`}> 
            {
                 routes.map(route=><Link key={route.id} route={route}></Link>)  
             }
            </div>
-        </div>
+        </nav>
     );
 };
 
